@@ -1,0 +1,40 @@
+.container{
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+   top: 10vh;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+}
+.navbar{
+    border-radius: 30px;
+    width: 50%;
+    height: 8vh;
+    background: linear-gradient(to right, #212121, #212121, #878787);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.navbar p{
+    background-color: transparent;
+    color: white;
+    padding: 6px 30px;
+  cursor: pointer;
+   border-radius: 20px;
+   font-size: 1vw;
+   
+  
+}
+.contact{
+     margin-right: 1vw;
+}
+.home{
+    margin-left: 1vw;
+}
+.navbar p:hover{
+    background-color: white;
+    color: black;
+}

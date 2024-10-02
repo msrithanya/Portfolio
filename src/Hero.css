@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    z-index: 1;
+      margin: 0%;
+       /* background-color: transparent; */
+}
+.section{
+   
+    position: relative;
+    bottom: 15vh;
+    color: aliceblue;
+    background-color: transparent;
+}
+.name{
+    margin-left: 20vw;
+}
+p{
+   
+    background-color: transparent;
+}
+.heading{
+    margin-left: 20vw;
+    font-size: 8vw;
+}
+.heading1{
+    margin-left: 20vw;
+    position: relative;
+    bottom: 2vh;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-size: 8vw;
+}
+.containers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.inner{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.inner p{
+    padding: 10px 35px;
+    border-radius: 20px;
+   
+   
+}
+.hire{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+.cv{
+    margin-right: 10px;
+    border: 1px solid white;
+}
+.profile_pic{
+    position: absolute;
+    left: 75%;
+    bottom: 90%;
+}
+.arrow{
+    position: absolute;
+    left: 65%;
+    background-color: transparent;
+}

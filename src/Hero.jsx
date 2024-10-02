@@ -14,6 +14,9 @@ function Hero() {
           <p className='cv'> view CV</p>
         </div>
       </div>
+      <div class="wrapper">
+  
+</div>
     </div>
   )
 }
